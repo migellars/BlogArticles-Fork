@@ -2,7 +2,7 @@ using AppWithoutMediatR.Domain;
 
 namespace AppWithoutMediatR.Application.AddGoat;
 
-internal class AddGoatHandler : IAddGoatHandler
+public class AddGoatHandler : IAddGoatHandler
 {
     public Task<AddGoatResponse> Handle(AddGoatCommand query)
     {
